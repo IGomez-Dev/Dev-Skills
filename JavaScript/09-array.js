@@ -69,3 +69,13 @@ var user = 'Ivan'
 
 console.log(greet + user)
 console.log(greet.concat(user))
+
+console.log('----------------')
+
+var test = typeof('what is this?')
+var test2 = typeof({firstProperty: 1})
+var test3 = typeof(function abc(){console.log('Hello')})
+
+console.log(test)
+console.log(test2)
+console.log(test3)
