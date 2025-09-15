@@ -1,0 +1,6 @@
+Nombres,Apellidos,Edad,Nacionalidad,Profesión
+Juan,Hernández,20,México,Electricista
+Oscar,Quispe,37,Perú,Minas
+Nicolas,González,17,Argentina,
+Piero,Rodriguez,23,Uruguay,Administración
+Aladin,Rodriguez,34,Colombia,Medicina
