@@ -61,3 +61,11 @@ console.log(newArray)
 myArray = [1,'jefa',3.4,true,12456876654465]
 myArray.splice(1,2,'Nueva entrada')
 console.log(myArray)
+
+console.log('----------------')
+
+var greet = 'Hello '
+var user = 'Ivan'
+
+console.log(greet + user)
+console.log(greet.concat(user))
