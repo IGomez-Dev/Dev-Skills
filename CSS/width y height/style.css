@@ -1,0 +1,16 @@
+
+div {
+    background: red;
+    width: 400px;
+    height: 200px    
+}
+
+h1 {
+    background: blue;
+    text-align: center;
+}
+
+input {
+    background: cyan;
+    width: 90%;
+}
