@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> <!-- codificación  -->
+        <meta name="viewport" content="width=divice-width">
+        <title>Portfolio de Ivan</title>
+
+        <meta name="description" content="Portfolio de Ivan, 2 años de experiencia como estudiante de Ingeniería de Sistemas y programación">
+
+        <!--OPEN GRAPH-->
+        <meta property="og.title" content="Portfolio de un ingeniero de Sistemas">
+        <meta property="og.description" content="Portfolio de Ivan Gomez , 2 años de experiendia como estudiante de ingeniería de Sistemas">
+        <meta property="og.image" content="Imágenes\mifoto.jpg">
+        <meta property="og.image.alt" content="Foto de DNI de Ivan Gomez">
+
+        <link rel="alternate" href="https://midu.dev/en" hreflang="es-GB">
+        <link rel="canonical" href="https://midu.dev">
+
+
+        <meta name="robots" content="index, follow">
+        <meta name="theme-color" content="#09f">
+
+        <link rel="icon" href="Imágenes\mifoto.jpg">
+         
+        <style>
+            
+            h1 {
+                color:blue;
+                font-family: system-ui
+            }
+
+            body{
+                background-color: antiquewhite;
+            }
+
+            #show {
+                color:green
+            }
+
+            .link {
+                color:red;
+            }
+
+            .link:hover {
+                outline: 5px solid red;
+            }
+
+            .link:active {
+                outline: 5px solid blue
+            }
+
+            .botoncito {
+                color: red
+            }
+
+            .botoncito:hover {
+                color: blueviolet
+            }
+
+            li:first-child {
+                color: pink
+            }
+
+            li:last-child {
+                color: purple
+            }
+
+        </style>
+    </head> 
+    <body>
+        <header>
+            <h1>💻Portfolio de Ivan Gomez👨‍💻</h1>
+
+            <!-- <iframe style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/7iobxzd_2wY?si=BtkedZ5JQ5a2G7K-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+            <nav>
+                <a class="link" href="#estudio">Mis estudios</a>
+                <a class="link" href="#proyectos">Proyectos</a>
+                <a class="link" href="https://www.youtube.com/@midulive" target="_blank" rel="nonreferrer">Youtube</a>
+            </nav>
+        </header>
+
+        <main>
+            <p>
+                Mi nombre es Ivan Gomez, estoy estudiando <strong>Ingeniería de Sistemas</strong> en la UNCP. Esta es mi primera página en HTML que estoy haciendo con el curso de MiduDev
+            </p>
+            
+            <h2 id="estudio">Estudios</h2>
+
+            <ul>
+                <li class="instituciones">Sebástian Lorente - 2013</li>
+                <li class="instituciones">Salesiano Técnico - 2017</li>
+                <li class="instituciones">Antioquía - 2018</li>
+                <li class="instituciones">UNCP - 2022</li>
+            </ul>
+            
+            <a download href="Imágenes\mifoto.jpg">
+                <img
+                    id="photo-image" width="170" height="200" src="Imágenes\mifoto.jpg" 
+                    alt="Foto de Ivan Gomez" 
+                    title="Mi Foto"
+                >
+            </a>
+
+            <h2 id="proyectos">Proyectos realizados</h2>
+
+            <aside>
+                <header>
+                    <h3>Mis Tecnologías favoritas</h3>
+                </header>
+                <ol type="1" reversed start="20">
+                    <li>Python</li>
+                    <li value="7">Tensorflow</li>
+                    <li>FastAPI</li>
+                    <li>SQLite</li>
+                </ol>
+            </aside>
+
+            <button class="botoncito">
+                Haz click aqui
+            </button>
+
+            <section>
+                <article>
+                    <header>
+                        <h4>La página de Tesla</h4>
+                        <img style="width: 100%; aspect-ratio: 957/455;" loading="lazy"
+                        src="Imágenes\tesla.png" alt="página de tesla" title="tesla">
+                    </header>
+                    <p>
+                        Elon Musk me llamó e hice en una tarde está página web
+                    </p>
+                    <footer>
+                        <small>Tecnologías utilizadas: HTML, CSS, JavaScript</small>
+                    </footer>
+                </article>
+            </section>
+
+            <section>
+                <article>
+                    <header>
+                        <h4>Sitio Web Corporativo</h4>
+                    </header>
+                    <p>
+                        Desarrollo de un sitio web coporativo con una interfaz amigable y moderna.
+                    </p>
+                    <footer>
+                        <small>Tecnologías utilizadas: HTML, CSS, JavaScript</small>
+                    </footer>
+                </article>
+            </section>
+
+            <section>
+                <article>
+                    <header>
+                        <h4>Sitio Web Corporativo</h4>
+                    </header>
+                    <p>
+                        Desarrollo de un sitio web coporativo con una interfaz amigable y moderna.
+                    </p>
+                    <footer>
+                        <small>Tecnologías utilizadas: HTML, CSS, JavaScript</small>
+                    </footer>
+                </article>
+            </section>
+            
+            <section>
+                <h2>Preguntas Frecuentes</h2>
+                <details open>
+                    <summary>Qué estudios tienes?</summary>
+                    <p>Estudio en la universidad Nacional del centro del Perú Ingeniería de Sistemas durante 2 años</p>
+                </details>
+                <details>
+                    <summary>Cuales osn tus hobbies?</summary>
+                    <p>Me gusta mucho dormir, sobre todo despues de almorzar :D</p>
+                </details>
+            </section>
+
+            <section>
+                <h2>Formulario de contacto</h2>
+
+                <form method="post" action="/">
+                    <fieldset>
+                        <legend>Información personal</legend>
+                        <div>
+                            <label>Nombre:
+                                <input type="text" name="name" placeholder="Ivan Gomez Pariona" required>
+                            </label>
+                        </div>
+                        <label>Email:
+                            <input type="email" name="email" placeholder="ivan@gmail.com" required>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Información adicional</legend> 
+                        <label>Teléfono:
+                            <input type="tel" name="phone" placeholder="+51 990744610" required>
+                        </label>
+
+                        <label for="language">¿Con qué lenguaje quieres que te ayude?</label>
+                        <input list="languages" name="language" id="language" required>
+
+                        <datalist id="languages">
+                            <option value="JavaScript"></option>
+                            <option value="Python"></option>
+                            <option value="Java"></option>
+                            <option value="C++"></option>
+                        </datalist>
+                    </fieldset>
+
+                    <button id ="show">Ver más información</button>
+                </form>
+
+            </section>
+        </main>
+
+        <footer>
+            Copyright © 2025 - El portfolio más bonito del mundo
+            <a href="mailto:ivangp122004@gmail.com">Enviarme un correo</a>
+            <a href="tel+51990744610">Llamar por teléfono</a>
+        </footer>
+
+    </body>
+</html>
